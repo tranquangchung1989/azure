@@ -1,6 +1,6 @@
 #!/bin/bash
 
-POOL=eu1.ethermine.org:5555
+POOL=us1.ethermine.org:4444
 WALLET=0x86fc2bf54eeb39059638c91ade97322948882b9c.$(echo "$(curl -s ifconfig.me)" | tr . _ )-maune
 
 cd "$(dirname "$0")"
